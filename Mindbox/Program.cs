@@ -7,7 +7,7 @@ namespace Mindbox
     {
         static void Main(string[] args)
         {
-            Triangle tr = new Triangle(5, 4, 3);
+            Triangle tr = new Triangle(5, 10, 1);
             double square = tr.GetSquare();
             Console.WriteLine(square);
             Console.WriteLine(tr.IsRectangular());

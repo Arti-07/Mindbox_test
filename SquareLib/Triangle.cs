@@ -56,7 +56,7 @@ namespace SquareLib
 
         public Triangle(double a, double b, double c)
         {
-            if (a + b > c && b + c > a && c + a > b)
+            if (a + b > c && b + c > a && c + a > b && (a >= 0 && b >= 0 && c >= 0)) 
             {
                 this._a = a;
                 this._b = b;
